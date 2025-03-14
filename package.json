@@ -1,0 +1,23 @@
+{
+  "name": "bitroute",
+  "version": "1.0.0",
+  "description": "Web-based P2P file transfer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imkarthikdileep/BitRoute.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imkarthikdileep/BitRoute/issues"
+  },
+  "homepage": "https://github.com/imkarthikdileep/BitRoute#readme",
+  "dependencies": {
+    "ws": "^8.18.1"
+  }
+}
