@@ -29,7 +29,7 @@ const CHUNK_SIZE = 65536;
 // Initialize signaling
 function initSignaling() {
     if (useWebSocket) {
-        ws = new WebSocket('wss://your-signaling-server.onrender.com'); // Replace with Render URL
+        ws = new WebSocket('https://bitroute1.onrender.com'); // Replace with Render URL
         ws.onopen = () => {
             status.textContent = 'Connected to WebSocket server. Waiting for peer ID...';
         };
